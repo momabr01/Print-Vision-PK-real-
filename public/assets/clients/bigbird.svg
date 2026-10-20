@@ -1,0 +1,123 @@
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Big Bird Logo -->
+  <g id="big-bird-brand" transform="translate(10, 15)">
+    <!-- BIG in Crimson Red -->
+    <g fill="#C9213E">
+      <!-- B with chicken silhouette cutout -->
+      <path d="M 15,10 
+               L 56,10 
+               C 70,10 78,16 78,28 
+               C 78,37 72,43 62,46 
+               C 74,49 81,56 81,68 
+               C 81,81 70,89 54,89 
+               L 15,89 Z 
+               M 35,26 
+               L 48,26 
+               C 53,26 56,28 56,33 
+               C 56,38 53,40 48,40 
+               L 35,40 Z 
+               M 35,56 
+               L 50,56 
+               C 55,56 59,59 59,65 
+               C 59,71 55,74 49,74 
+               L 35,74 Z" />
+      <!-- Chicken head silhouette profile in white cutout on top curve of B -->
+      <path d="M 28,10 
+               C 34,14 36,20 34,26 
+               C 32,29 28,32 23,34 
+               C 21,39 23,43 27,45 
+               C 22,46 17,44 15,38 
+               L 15,22 
+               C 17,17 21,13 28,10 Z" fill="#FFFFFF" />
+      <circle cx="26" cy="22" r="2.2" fill="#C9213E" />
+      <path d="M 17,25 L 12,28 L 17,31 Z" fill="#FFFFFF" />
+
+      <!-- I -->
+      <rect x="88" y="10" width="22" height="79" rx="4" />
+
+      <!-- G -->
+      <path d="M 158,10 
+               C 134,10 118,26 118,50 
+               C 118,74 134,90 159,90 
+               C 178,90 190,79 193,65 
+               L 168,65 
+               C 166,71 162,73 158,73 
+               C 146,73 140,63 140,50 
+               C 140,36 146,27 158,27 
+               C 166,27 172,32 173,40 
+               L 194,36 
+               C 190,20 176,10 158,10 Z 
+               M 166,45 L 194,45 L 194,62 L 166,62 Z" />
+    </g>
+
+    <!-- Registered symbol -->
+    <text x="198" y="18" font-family="sans-serif" font-size="12" font-weight="bold" fill="#C9213E">®</text>
+
+    <!-- BIRD in Navy Blue -->
+    <g fill="#1F2848">
+      <!-- B -->
+      <path d="M 15,96 
+               L 52,96 
+               C 64,96 72,102 72,112 
+               C 72,119 67,124 58,127 
+               C 69,130 75,136 75,146 
+               C 75,158 65,166 50,166 
+               L 15,166 Z 
+               M 35,110 
+               L 46,110 
+               C 50,110 53,112 53,116 
+               C 53,120 50,122 46,122 
+               L 35,122 Z 
+               M 35,138 
+               L 47,138 
+               C 52,138 55,140 55,145 
+               C 55,150 51,152 46,152 
+               L 35,152 Z" />
+      
+      <!-- I -->
+      <rect x="80" y="96" width="20" height="70" rx="3" />
+
+      <!-- R -->
+      <path d="M 108,96 
+               L 142,96 
+               C 155,96 163,103 163,115 
+               C 163,125 156,132 144,134 
+               L 165,166 
+               L 142,166 
+               L 126,138 
+               L 126,166 
+               L 108,166 Z 
+               M 126,110 
+               L 138,110 
+               C 142,110 145,112 145,117 
+               C 145,122 142,124 138,124 
+               L 126,124 Z" />
+
+      <!-- D -->
+      <path d="M 172,96 
+               L 194,96 
+               C 214,96 226,110 226,131 
+               C 226,152 214,166 194,166 
+               L 172,166 Z 
+               M 191,111 
+               L 189,111 
+               L 189,151 
+               L 191,151 
+               C 201,151 207,143 207,131 
+               C 207,119 201,111 191,111 Z" />
+    </g>
+
+    <!-- Curved Swoosh Red Line Underneath -->
+    <path d="M 2,176 Q 110,186 218,176 Q 110,181 2,176 Z" fill="#C9213E" />
+
+    <!-- Tagline: Eat Well. Live Well -->
+    <text x="16" y="202" font-family="'Brush Script MT', cursive, sans-serif" font-size="24" font-weight="bold" fill="#C9213E">
+      Eat Well.
+    </text>
+    <text x="110" y="202" font-family="'Brush Script MT', cursive, sans-serif" font-size="24" font-weight="bold" fill="#1F2848">
+      Live Well
+    </text>
+    <!-- Little heart over 'i' in Live -->
+    <path d="M 126,183 C 126,181 124,179 122,179 C 120,179 119,181 119,183 C 119,186 122,189 122,189 C 122,189 125,186 125,183 Z" fill="#C9213E" />
+  </g>
+</svg>

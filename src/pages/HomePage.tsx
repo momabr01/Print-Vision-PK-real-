@@ -133,7 +133,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-4/3 lg:aspect-square">
                 <img
-                  src="/src/assets/images/hero_exhibition_booth_1792411446690.jpg"
+                  src="/assets/images/hero_exhibition_booth_1792411446690.jpg"
                   alt="PrintVision Custom Exhibition Pavilion"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"

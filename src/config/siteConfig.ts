@@ -111,7 +111,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'High-precision commercial and industrial print production, from annual reports and luxury stationery to heavy-duty large-format graphics.',
     fullDescription:
       'As an established print house since 1997, we understand that physical print is the touchpoint by which corporate reputations are weighed. We produce immaculate corporate literature, annual accounts, premium bespoke stationery, and large-format graphics using calibrated Pantone reproduction, specialised finishes, and strict quality control on every press run.',
-    image: '/src/assets/images/service_printing_solutions_1792411449423.jpg',
+    image: '/assets/images/service_printing_solutions_1792411449423.jpg',
     deliverables: [
       'Corporate annual reports, profile brochures & executive slipcases',
       'High-resolution UV flatbed printing on rigid sheets & acrylic',
@@ -151,7 +151,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Strategic visual identities, logo architecture, and unified design systems engineered for tangible real-world application.',
     fullDescription:
       'We design brand identities with production reality in mind. Unlike digital-only agencies whose concepts unravel when translated to metal, fabric, or ink, our designers work alongside our print press operators and fabricators to ensure your identity performs flawlessly across every physical and digital touchpoint.',
-    image: '/src/assets/images/service_brand_designing_1792414322126.jpg',
+    image: '/assets/images/service_brand_designing_1792414322126.jpg',
     deliverables: [
       'Core corporate logo mark, vector assets & typography hierarchy',
       'Comprehensive brand identity manual & production guidelines',
@@ -191,7 +191,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Turnkey physical staging, reveal architecture, and event production for high-stakes corporate unveilings.',
     fullDescription:
       'A product launch happens once; there is no second take. PrintVision handles the complete physical staging, synchronized reveal structures, press step-and-repeat backdrops, and bespoke stage fabrication so your product announcement commands authority.',
-    image: '/src/assets/images/service_product_launches_1792414339455.jpg',
+    image: '/assets/images/service_product_launches_1792414339455.jpg',
     deliverables: [
       'Custom keynote stage fabrication & backdrop architecture',
       'Hydraulic, curtain or LED reveal mechanisms for products',
@@ -231,7 +231,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Custom exhibition stand design, structural fabrication, and turnkey handover at Expo Centre Lahore, Karachi, and nationwide.',
     fullDescription:
       'We transform vacant expo floor plots into high-traffic corporate pavilions. With extensive build history at Expo Centre Lahore and Expo Centre Karachi, our team designs, fabricates in our dedicated joinery bay, installs overnight, and hands over polished stands on time.',
-    image: '/src/assets/images/service_exhibition_stall_1792411446415.jpg',
+    image: '/assets/images/service_exhibition_stall_1792411446415.jpg',
     deliverables: [
       '3D photorealistic architectural stall renderings & floor plans',
       'Joinery, fire-rated partitions, raised floors & LED lighting',
@@ -271,7 +271,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Distinctive corporate gifting, bespoke promotional merchandise, and tactile campaign collateral that recipients keep.',
     fullDescription:
       'We reject generic throwaway trinkets. PrintVision conceptualises and crafts high-utility executive gifts, custom debossed leather journals, precision-machined metal items, and bespoke presentation packaging that reinforce premium brand positioning on executive desks.',
-    image: '/src/assets/images/service_promotional_concepts_1792414339041.jpg',
+    image: '/assets/images/service_promotional_concepts_1792414339041.jpg',
     deliverables: [
       'Custom-engineered executive gift boxes with magnetic closures',
       'Debossed leather folders, organizers & laser-engraved pens',
@@ -311,7 +311,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Point-of-Sale (POS) displays, endcap branding, and in-store merchandising structures engineered for high-footfall retail.',
     fullDescription:
       'Win the decisive five seconds at the store shelf. We design, prototype, and manufacture durable retail display fixtures, floor-standing display units (FSDUs), acrylic counter glorifiers, and shelf-edge promotional strips that maximise stock visibility.',
-    image: '/src/assets/images/service_corporate_display_1792411448814.jpg',
+    image: '/assets/images/service_corporate_display_1792411448814.jpg',
     deliverables: [
       'Heavy-duty metal, acrylic & wood Floor Standing Display Units (FSDUs)',
       'Countertop display units (CDUs) & lighted product glorifiers',
@@ -351,7 +351,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Interactive on-ground brand activations, consumer engagement kiosks, and immersive public installations.',
     fullDescription:
       'Passive advertising is easily forgotten; immersive physical experience is remembered. PrintVision conceives and builds interactive brand spaces—from interactive mall atrium kiosks to high-energy university campus activation roadshows.',
-    image: '/src/assets/images/service_experiential_marketing_1792414356483.jpg',
+    image: '/assets/images/service_experiential_marketing_1792414356483.jpg',
     deliverables: [
       'Free-standing interactive mall activation structures & domes',
       'Touchscreen demo stations, gaming kiosks & AR photo booths',
@@ -391,7 +391,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Multi-touchpoint advertising synchronization bridging out-of-home (OOH), print, retail, and experiential execution.',
     fullDescription:
       'An advertising idea achieves maximum velocity when every touchpoint speaks the exact same visual language. PrintVision coordinates unified campaigns where city overhead billboards, transit vehicle wraps, dealer point-of-sale displays, and press advertisements execute with unwavering colour and messaging consistency.',
-    image: '/src/assets/images/service_integrated_campaigns_1792414372911.jpg',
+    image: '/assets/images/service_integrated_campaigns_1792414372911.jpg',
     deliverables: [
       'Master campaign creative platform & headline copy generation',
       'Large-format Out-Of-Home (OOH) skins, gantries & unipoles',
@@ -431,7 +431,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Distributor showroom branding, external dealer fascia signages, and wholesale B2B promotional programmes.',
     fullDescription:
       'Your distributor network is your front line. PrintVision manufactures and installs standardized dealer board signages, backlit 3D channel letters, branded wholesale counters, and distributor conference environments that motivate the trade and dominate the local market.',
-    image: '/src/assets/images/service_trade_marketing_1792414357346.jpg',
+    image: '/assets/images/service_trade_marketing_1792414357346.jpg',
     deliverables: [
       'Standardized illuminated dealer boards & exterior fascia signages',
       'Distributor counter wraps, wall cladding & product showcase bays',
@@ -643,7 +643,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'launches',
     categoryLabel: 'Brand & Product Launches',
     typeBadge: 'Client Project (Divine Developers)',
-    image: '/src/assets/images/service_product_launches_1792414339455.jpg',
+    image: '/assets/images/service_product_launches_1792414339455.jpg',
     description:
       'From creative ideas to final execution, a landmark property launch completely handled by PrintVision across all media—from television to press—culminating in the grand inaugural launch event near METRO Cash & Carry, Airport Road, Lahore.',
     clientSector: 'Real Estate & Infrastructure (Divine Developers Pvt. Ltd.)',
@@ -657,7 +657,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'experiential',
     categoryLabel: 'Experiential Marketing',
     typeBadge: 'Client Project (Al-Hilal Industries)',
-    image: '/src/assets/images/service_experiential_marketing_1792414356483.jpg',
+    image: '/assets/images/service_experiential_marketing_1792414356483.jpg',
     description:
       'A nationwide youth brand activation effectively conducted as "BOOMER VOICE OF NATION" for Boomer Cola, including talent auditions in more than 80 educational institutes of Lahore & Islamabad, live singing competitions, branded concert staging, and prize hampers.',
     clientSector: 'FMCG & Beverages (Al-Hilal Industries Pvt. Ltd.)',
@@ -671,7 +671,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'exhibitions',
     categoryLabel: 'Exhibitions',
     typeBadge: 'Client Project (PTDC)',
-    image: '/src/assets/images/service_exhibition_stall_1792411446415.jpg',
+    image: '/assets/images/service_exhibition_stall_1792411446415.jpg',
     description:
       'Official exhibition pavilion designed and fabricated for the Pakistan Tourism Development Corporation (2013). Featured clean architectural geometry, illuminated 3D corporate signage, cultural photo walls, hospitality lounge, and interactive inquiry desks.',
     clientSector: 'Public Sector & National Tourism (PTDC)',
@@ -685,7 +685,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'exhibitions',
     categoryLabel: 'Exhibitions',
     typeBadge: 'Client Project (CEVA Pharma)',
-    image: '/src/assets/images/hero_exhibition_booth_1792411446690.jpg',
+    image: '/assets/images/hero_exhibition_booth_1792411446690.jpg',
     description:
       'Sophisticated curved modular exhibition booth engineered for CEVA Pharma (2013). Integrated overhead circular canopy with 3D logo, dynamic blue ambient lighting, multiple semi-private consultation pods, and central digital presentation screens.',
     clientSector: 'Pharmaceutical & Veterinary Healthcare (CEVA Pharma)',
@@ -699,7 +699,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'trade',
     categoryLabel: 'Trade Marketing',
     typeBadge: 'Client Project (Marush Pvt. Ltd.)',
-    image: '/src/assets/images/service_trade_marketing_1792414357346.jpg',
+    image: '/assets/images/service_trade_marketing_1792414357346.jpg',
     description:
       'Long-standing brand partner since inception. PrintVision executed nationwide fleet livery for the Marush Vaccination Services Suzuki vans and pickups, product packaging designs, technical veterinary wall charts, and distributor point-of-sale display fixtures.',
     clientSector: 'Animal Health & Veterinary Medicine (Marush Pvt. Ltd.)',
@@ -713,7 +713,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'printing',
     categoryLabel: 'Corporate Printing',
     typeBadge: 'Client Project (Big Bird Group)',
-    image: '/src/assets/images/service_printing_solutions_1792411449423.jpg',
+    image: '/assets/images/service_printing_solutions_1792411449423.jpg',
     description:
       'Comprehensive packaging and corporate literature production for Pakistan’s leading poultry enterprise. High-volume industrial feed bag graphics (Big Feed), product leaflets, Hubbard M99 breed technical brochures, and corporate presentation binders.',
     clientSector: 'Agribusiness & Poultry Sector (Big Bird Group)',
