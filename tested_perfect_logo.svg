@@ -1,0 +1,45 @@
+<svg viewBox="0 0 300 300" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#333333" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="triClip">
+      <polygon points="28,74 272,74 150,276" />
+    </clipPath>
+  </defs>
+
+  <!-- Outer Circle -->
+  <circle cx="150" cy="150" r="146" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5" />
+
+  <!-- Drop Shadow beneath apex -->
+  <ellipse cx="150" cy="288" rx="34" ry="5.5" fill="url(#shadowGrad)" />
+
+  <!-- Inverted Triangle Base -->
+  <polygon points="28,74 272,74 150,276" fill="#EE6516" stroke="#1A1A1A" stroke-width="1.8" stroke-linejoin="round" />
+
+  <!-- Clipped Rotated P Glyph -->
+  <g clip-path="url(#triClip)">
+    <g transform="translate(120, 108) rotate(48) scale(1.05)">
+      <path
+        fill="#1A1A1A"
+        fill-rule="evenodd"
+        d="M 0,-40
+           L 70,-40
+           C 105,-40 132,-12 132,22
+           C 132,56 105,84 70,84
+           L 38,84
+           L 38,180
+           L 0,180
+           Z
+           M 38,-4
+           L 68,-4
+           C 82,-4 94,8 94,22
+           C 94,36 82,48 68,48
+           L 38,48
+           Z"
+      />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Master Since 1963 Logo -->
+  <defs>
+    <linearGradient id="masterBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E5DA9" />
+      <stop offset="100%" stop-color="#0E3675" />
+    </linearGradient>
+    <radialGradient id="redBadge" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FF3333" />
+      <stop offset="70%" stop-color="#D91616" />
+      <stop offset="100%" stop-color="#990000" />
+    </radialGradient>
+  </defs>
+
+  <!-- Blue Plaque Card Base -->
+  <rect x="10" y="8" width="180" height="224" rx="8" fill="url(#masterBlue)" stroke="#2B72CA" stroke-width="1.5" />
+
+  <!-- Circular Badge -->
+  <g transform="translate(100, 84)">
+    <!-- Outer Red and Yellow Ring -->
+    <circle cx="0" cy="0" r="60" fill="url(#redBadge)" stroke="#FFFFFF" stroke-width="2.5" />
+    
+    <!-- Yellow Ring Segment -->
+    <path d="M 0,-60 A 60,60 0 0,0 -56,20 L -46,16 A 50,50 0 0,1 0,-50 Z" fill="#FFD700" />
+
+    <!-- Central Stylized M Mascot with head -->
+    <!-- Head dot -->
+    <circle cx="0" cy="-24" r="13" fill="#FFD700" stroke="#E6A800" stroke-width="1.5" />
+    
+    <!-- M Body -->
+    <path d="M -34,16 
+             L -34,-6 
+             C -34,-18 -18,-18 -18,-6 
+             L -18,14 
+             C -18,16 -16,18 -14,18 
+             C -12,18 -10,16 -10,14 
+             L -10,-8 
+             C -10,-12 -6,-15 0,-15 
+             C 6,-15 10,-12 10,-8 
+             L 10,14 
+             C 10,16 12,18 14,18 
+             C 16,18 18,16 18,14 
+             L 18,-6 
+             C 18,-18 34,-18 34,-6 
+             L 34,16 
+             C 34,22 28,26 22,26 
+             L -22,26 
+             C -28,26 -34,22 -34,16 Z" fill="#FFD700" stroke="#E6A800" stroke-width="1.5" />
+  </g>
+
+  <!-- MASTER Typography in Serif White -->
+  <text x="100" y="180" font-family="'Times New Roman', Times, Georgia, serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    MASTER
+  </text>
+
+  <!-- SINCE 1963 -->
+  <text x="100" y="205" font-family="'Times New Roman', Times, Georgia, serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">
+    SINCE 1963
+  </text>
+</svg>
