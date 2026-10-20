@@ -105,13 +105,15 @@ export const HomePage: React.FC<HomePageProps> = ({
 
               {/* Actions */}
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                <button
-                  onClick={() => onOpenQuoteModal()}
+                <a
+                  href={`https://wa.me/${SITE_CONFIG.contact.whatsappNumber}?text=${encodeURIComponent('Hello PrintVision, I would like to discuss my project requirements.')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-7 py-3.5 text-base font-bold text-white bg-[#E8791F] hover:bg-[#D66B15] active:bg-[#C45E0F] rounded-xl shadow-sm hover:shadow-md transition-all duration-150 flex items-center justify-center gap-2.5 cursor-pointer"
                 >
                   <span>Discuss Your Project</span>
                   <ArrowRight className="w-5 h-5" />
-                </button>
+                </a>
               </div>
 
               {/* Core Trust Proofs */}
