@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   ArrowRight,
   Shield,
@@ -6,6 +6,7 @@ import {
   Wrench,
   Sparkles,
   ChevronRight,
+  ChevronLeft,
   CheckCircle2,
   Clock,
   Printer,
@@ -129,24 +130,23 @@ export const HomePage: React.FC<HomePageProps> = ({
               </div>
             </div>
 
-            {/* Right Column: Hero Visual Asset */}
+            {/* Right Column: Hero YouTube Video Player */}
             <div className="lg:col-span-5 relative">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-4/3 lg:aspect-square">
-                <img
-                  src="/assets/images/hero_exhibition_booth_1792411446690.jpg"
-                  alt="PrintVision Custom Exhibition Pavilion"
-                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                  referrerPolicy="no-referrer"
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-4/3 lg:aspect-square flex items-center justify-center">
+                <iframe
+                  src="https://www.youtube.com/embed/7WUxoEPdaiQ?autoplay=1&mute=1&loop=1&playlist=7WUxoEPdaiQ&start=0&end=30&controls=1&modestbranding=1"
+                  title="PrintVision Exhibition Staging Video"
+                  className="w-full h-full object-cover border-0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
-
-                <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#E8791F] bg-black/60 backdrop-blur-xs px-2.5 py-1 rounded inline-block">
-                    Featured Project · Turnkey Staging
+                <div className="absolute bottom-6 left-6 right-6 text-white space-y-1 pointer-events-none">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#E8791F] bg-black/70 backdrop-blur-xs px-2.5 py-1 rounded inline-block">
+                    Featured Exhibition Video
                   </span>
-                  <div className="text-xl font-bold">CEVA Pharma & PTDC Exhibition Pavilions</div>
+                  <div className="text-xl font-bold">CEVA Pharma & Marush Exhibition</div>
                   <p className="text-xs text-[#F3EFE7]/80 line-clamp-2">
-                    Custom architectural exhibition design, overhead halo rigging, and on-site handover at Expo Centre.
+                    Turnkey exhibition staging and custom architectural build at Expo Centre Lahore.
                   </p>
                 </div>
               </div>

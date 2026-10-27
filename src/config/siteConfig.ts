@@ -685,9 +685,9 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'exhibitions',
     categoryLabel: 'Exhibitions',
     typeBadge: 'Client Project (CEVA Pharma)',
-    image: '/assets/images/hero_exhibition_booth_1792411446690.jpg',
+    image: '/assets/images/ceva_marush_stall_2.png',
     description:
-      'Sophisticated curved modular exhibition booth engineered for CEVA Pharma (2013). Integrated overhead circular canopy with 3D logo, dynamic blue ambient lighting, multiple semi-private consultation pods, and central digital presentation screens.',
+      'Sophisticated curved modular exhibition booth engineered for CEVA Pharma at Expo Centre Lahore. Integrated overhead circular canopy with 3D logo, dynamic blue ambient lighting, multiple semi-private consultation pods, and central digital presentation screens.',
     clientSector: 'Pharmaceutical & Veterinary Healthcare (CEVA Pharma)',
     dimensions: '12m x 10m Island Stand',
     materials: ['Curved MDF Partitioning', 'Overhead Halo Ring Rigging', 'Accent Blue LEDs', 'High-Gloss Counters'],
