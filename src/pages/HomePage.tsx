@@ -30,6 +30,7 @@ import {
   ServiceItem,
 } from '../config/siteConfig.ts';
 import { MarketLeadersMarquee } from '../components/MarketLeadersMarquee.tsx';
+import { YouTubeClipPlayer } from '../components/YouTubeClipPlayer.tsx';
 
 interface HomePageProps {
   onNavigate: (tab: string, serviceId?: string) => void;
@@ -133,13 +134,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Right Column: Hero YouTube Video Player */}
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-4/3 lg:aspect-square flex items-center justify-center">
-                <iframe
-                  src="https://www.youtube.com/embed/7WUxoEPdaiQ?autoplay=1&mute=1&loop=1&playlist=7WUxoEPdaiQ&start=0&end=30&controls=1&modestbranding=1"
-                  title="PrintVision Exhibition Staging Video"
-                  className="w-full h-full object-cover border-0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <YouTubeClipPlayer videoId="7WUxoEPdaiQ" startTime={0} endTime={30} />
                 <div className="absolute bottom-6 left-6 right-6 text-white space-y-1 pointer-events-none">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#E8791F] bg-black/70 backdrop-blur-xs px-2.5 py-1 rounded inline-block">
                     Featured Exhibition Video
