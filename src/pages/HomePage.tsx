@@ -85,7 +85,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
             {/* Left Column: Value Proposition & Plain-Spoken Pitch */}
-            <div className="lg:col-span-7 space-y-6">
+            <div className="lg:col-span-5 space-y-6">
               {/* Unboxed Heritage Kicker */}
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#E8791F]">
                 <span>Advertising Agency & Print House</span>
@@ -101,7 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h1>
 
               {/* Plain-Spoken, Confident Supporting Prose */}
-              <p className="text-base sm:text-lg text-[#16130F]/75 leading-relaxed max-w-2xl font-normal">
+              <p className="text-base sm:text-lg text-[#16130F]/75 leading-relaxed font-normal">
                 PrintVision is a full-featured advertising firm and print house based in Lahore, Pakistan, established in 1997. We bridge the gap between creative concepts and flawless real-world execution, delivering corporate printing, brand design, exhibitions, retail marketing, and turnkey experiential campaigns nationwide.
               </p>
 
@@ -132,8 +132,8 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
 
             {/* Right Column: Hero YouTube Video Player */}
-            <div className="lg:col-span-5 relative">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-4/3 lg:aspect-square flex items-center justify-center">
+            <div className="lg:col-span-7 relative">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E5DFD3] bg-[#16130F] aspect-16/10 lg:aspect-16/9 flex items-center justify-center">
                 <YouTubeClipPlayer videoId="7WUxoEPdaiQ" startTime={0} endTime={30} />
                 <div className="absolute bottom-6 left-6 right-6 text-white space-y-1 pointer-events-none">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#E8791F] bg-black/70 backdrop-blur-xs px-2.5 py-1 rounded inline-block">
