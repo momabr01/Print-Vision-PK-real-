@@ -104,7 +104,7 @@ export const YouTubeClipPlayer: React.FC<YouTubeClipPlayerProps> = ({
 
   return (
     <div className={`relative overflow-hidden w-full h-full pointer-events-none select-none ${className}`}>
-      <div ref={containerRef} className="absolute inset-0 w-full h-full scale-150 pointer-events-none" />
+      <div ref={containerRef} className="absolute inset-0 w-full h-full pointer-events-none" />
     </div>
   );
 };
